@@ -1,0 +1,25 @@
+{
+  "name": "ai-digest-kit",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Daily AI news digest cron — $0/mo, deploys in 5 minutes on Vercel",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.30.0",
+    "next": "^15.0.0",
+    "nodemailer": "^6.9.16",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "rss-parser": "^3.13.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/nodemailer": "^6.4.17",
+    "@types/react": "^19.0.0",
+    "typescript": "^5.6.0"
+  }
+}
